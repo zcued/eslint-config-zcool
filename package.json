@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-zcool",
+  "version": "1.1.1",
+  "description": "eslint config for zcool",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.hellorf.work:cuining/eslint-config-zcool.git"
+  },
+  "keywords": [
+    "eslint",
+    "zcool"
+  ],
+  "author": "cuining",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-react": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0",
+    "babel-eslint": "^7.2.3"
+  }
+}
