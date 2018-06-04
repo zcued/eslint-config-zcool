@@ -44,6 +44,7 @@ module.exports = {
     "no-console": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
+
     // Prevent extra closing tags for components without children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     "react/self-closing-comp": "error",
@@ -59,9 +60,9 @@ module.exports = {
         '/^fetch.+$/',        // API请求
         '/^handle.+$/',       // React事件绑定，onClick之类的事件绑定，一般以handle**开始
         'instance-methods',   // 其他自定义函数
+        'everything-else',
         'getters',
         'setters',
-        'everything-else',
         'rendering',
       ],
       groups: {
