@@ -69,20 +69,14 @@ module.exports = {
         lifecycle: [
           'displayName',
           'propTypes',
-          'contextTypes',
-          'childContextTypes',
-          'mixins',
           'statics',
           'defaultProps',
           'constructor',
-          'getDefaultProps',
-          'getInitialState',
           'state',
-          'getChildContext',
+          'getDerivedStateFromProps',   // new lifecycle method after react 16.3
           'componentWillMount',
           'componentDidMount',
           'componentWillReceiveProps',
-          'getDerivedStateFromProps',   // new lifecycle method after react 16.3
           'shouldComponentUpdate',
           'componentWillUpdate',
           'getSnapshotBeforeUpdate',    // new lifecycle method after react 16.3
