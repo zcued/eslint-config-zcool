@@ -15,6 +15,7 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
+    "prefer-object-spread",
     "react"
   ],
   "rules": {
@@ -103,6 +104,9 @@ module.exports = {
         "next": "directive",
       }
     ],
+
+    // https://eslint.org/docs/rules/prefer-object-spread
+    "prefer-object-spread/prefer-object-spread": "error",
 
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
