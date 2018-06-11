@@ -42,6 +42,48 @@ module.exports = {
       "never"
     ],
     "no-console": 0,
+
+    // unify brace style
+    // https://eslint.org/docs/rules/brace-style
+    "brace-style": ["error", "1tbs"],
+
+    // https://eslint.org/docs/rules/prefer-const
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false,
+    }],
+
+    // https://eslint.org/docs/rules/array-callback-return
+    "array-callback-return": "error",
+
+    // https://eslint.org/docs/rules/no-else-return
+    "no-else-return": ["error", {
+      "allowElseIf": true,
+    }],
+
+    // https://eslint.org/docs/rules/no-multi-spaces
+    "no-multi-spaces": ["error", {
+      "ignoreEOLComments": true,
+    }],
+
+    // https://eslint.org/docs/rules/no-trailing-spaces
+    "no-trailing-spaces": "error",
+
+    // https://eslint.org/docs/rules/rest-spread-spacing
+    "rest-spread-spacing": ["error"],
+
+    // https://eslint.org/docs/rules/prefer-spread
+    "prefer-spread": "error",
+
+    // https://eslint.org/docs/rules/prefer-template
+    "prefer-template": "error",
+
+    // https://eslint.org/docs/rules/template-curly-spacing
+    "template-curly-spacing": ["error", "never"],
+
+    // https://eslint.org/docs/rules/eol-last
+    "eol-last": ["error", "always"],
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
 
@@ -52,7 +94,7 @@ module.exports = {
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
     "react/sort-comp": ["error", {
-      order: [
+      "order": [
         "static-methods",
         "instance-variables",
         "lifecycle",          // 生命周期
@@ -65,8 +107,8 @@ module.exports = {
         "setters",
         "rendering",
       ],
-      groups: {
-        lifecycle: [
+      "groups": {
+        "lifecycle": [
           "displayName",
           "propTypes",
           "statics",
@@ -84,10 +126,10 @@ module.exports = {
           "componentDidCatch",          // new lifecycle method after react 16
           "componentWillUnmount",
         ],
-        fetch: [
+        "fetch": [
           "/^fetch.+$/",
         ],
-        rendering: [
+        "rendering": [
           "/^render.+$/",
           "/^_render.+$/",
           "render"
