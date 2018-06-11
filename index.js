@@ -111,6 +111,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-useless-constructor
     "no-useless-constructor": "error",
 
+    // https://eslint.org/docs/rules/keyword-spacing
+    "keyword-spacing": "error",
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
 
