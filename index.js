@@ -84,6 +84,9 @@ module.exports = {
     // https://eslint.org/docs/rules/eol-last
     "eol-last": ["error", "always"],
 
+    // https://eslint.org/docs/rules/padded-blocks
+    "padded-blocks": ["error", "never"],
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
 
