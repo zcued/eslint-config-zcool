@@ -108,6 +108,9 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-object-spread
     "prefer-object-spread/prefer-object-spread": "error",
 
+    // https://eslint.org/docs/rules/no-useless-constructor
+    "no-useless-constructor": "error",
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
 
