@@ -87,6 +87,23 @@ module.exports = {
     // https://eslint.org/docs/rules/padded-blocks
     "padded-blocks": ["error", "never"],
 
+    // https://eslint.org/docs/rules/padding-line-between-statements
+    "padding-line-between-statements": [
+      "error", {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return",
+      }, {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"],
+      }, {
+        "blankLine": "any",
+        "prev": "directive",
+        "next": "directive",
+      }
+    ],
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
 
