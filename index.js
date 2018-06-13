@@ -44,6 +44,12 @@ module.exports = {
     ],
     "no-console": 0,
 
+    // https://eslint.org/docs/3.0.0/rules/no-var#when-not-to-use-it
+    "no-var": "error",
+
+    // https://eslint.org/docs/rules/no-multi-str
+    "no-multi-str": "error",
+
     // unify brace style
     // https://eslint.org/docs/rules/brace-style
     "brace-style": ["error", "1tbs"],
@@ -147,12 +153,6 @@ module.exports = {
     // Enforce spacing around jsx equals signs
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     "react/jsx-equals-spacing": ["error", "never"],
-
-    // Disallow target="_blank" on links
-    // https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-no-target-blank.md
-    "react/jsx-no-target-blank": ["error", {
-      "enforceDynamicLinks": "always"
-    }],
 
     // only .jsx files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
