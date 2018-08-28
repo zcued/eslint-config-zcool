@@ -47,6 +47,13 @@ module.exports = {
     // https://eslint.org/docs/3.0.0/rules/no-var#when-not-to-use-it
     "no-var": "error",
 
+    // https://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": [
+      "error",
+      "only-multiline",
+      {"functions": "never"}
+    ],
+
     // https://eslint.org/docs/rules/no-multi-str
     "no-multi-str": "error",
 
