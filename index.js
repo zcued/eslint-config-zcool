@@ -16,7 +16,8 @@ module.exports = {
   },
   "plugins": [
     "prefer-object-spread",
-    "react"
+    "react",
+    "import"
   ],
   "rules": {
     "indent": [
@@ -44,8 +45,18 @@ module.exports = {
     ],
     "no-console": 0,
 
+    //https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
+    "import/newline-after-import": ["error", { "count": 2 }],
+
     // https://eslint.org/docs/3.0.0/rules/no-var#when-not-to-use-it
     "no-var": "error",
+
+    // https://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": [
+      "error",
+      "always-multiline",
+      {"functions": "never"}
+    ],
 
     // https://eslint.org/docs/rules/no-multi-str
     "no-multi-str": "error",
