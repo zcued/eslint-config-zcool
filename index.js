@@ -45,6 +45,13 @@ module.exports = {
     ],
     "no-console": 0,
 
+    // https://eslint.org/docs/rules/lines-between-class-members
+    "lines-between-class-members": [
+      "error",
+      "always",
+      { "exceptAfterSingleLine": true }
+    ],
+
     //https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
     "import/newline-after-import": ["error", { "count": 2 }],
 
