@@ -53,7 +53,7 @@ module.exports = {
     ],
 
     //https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    "import/newline-after-import": ["error", { "count": 2 }],
+    "import/newline-after-import": ["error", { "count": 1 }],
 
     // https://eslint.org/docs/3.0.0/rules/no-var#when-not-to-use-it
     "no-var": "error",
@@ -131,6 +131,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/prefer-object-spread
     "prefer-object-spread/prefer-object-spread": "error",
+
+    // https://eslint.org/docs/rules/object-curly-spacing
+    "object-curly-spacing": ["error", "always"],
 
     // https://eslint.org/docs/rules/no-useless-constructor
     "no-useless-constructor": "error",
