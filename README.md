@@ -4,11 +4,11 @@
 ## Usage
 1.
 ```shell
-npm i eslint babel-eslint -D
+yarn add eslint babel-eslint -D
 ```
 2.
 ```shell
-npm i eslint-config-zcool -D
+yarn add eslint-config-zcool -D
 ```
 
 3.
