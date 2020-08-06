@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: ['airbnb', 'prettier', 'plugin:react-hooks/recommended'],
-  plugins: ['prettier', 'react-hooks', 'jest'],
+  plugins: ['prettier', 'react-hooks'],
   globals: {
     window: true,
     document: true,
@@ -10,7 +10,6 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
-    jest: true,
     node: false,
   },
   settings: {
