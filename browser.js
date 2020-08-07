@@ -1,6 +1,13 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier', 'plugin:react-hooks/recommended'],
+  extends: [
+    'airbnb-base',
+    'prettier',
+    'plugin:react-hooks/recommended',
+    './rules/base',
+    './rules/react',
+    './rules/import',
+  ],
   plugins: ['prettier', 'react-hooks'],
   globals: {
     window: true,
@@ -28,28 +35,5 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  rules: {
-    semi: ['error', 'never'],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/destructuring-assignment': [0],
-    'react/jsx-wrap-multilines': [
-      'error',
-      {
-        declaration: 'parens-new-line',
-        assignment: 'parens-new-line',
-        return: 'parens-new-line',
-        arrow: 'parens-new-line',
-        condition: 'parens-new-line',
-        logical: 'parens-new-line',
-        prop: 'ignore',
-      },
-    ],
-    'no-console': ['error', { allow: ['warn', 'error'] }],
-    'no-param-reassign': [
-      'error',
-      {
-        props: false,
-      },
-    ],
-  },
+  rules: {},
 }

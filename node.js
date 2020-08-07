@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:node/recommended'],
+  extends: ['eslint:recommended', 'plugin:node/recommended', './rules/base'],
   env: {
     node: true,
     es2020: true,
