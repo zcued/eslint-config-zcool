@@ -2,17 +2,14 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   settings: {
-    // Apply special parsing for TypeScript files
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
     },
-    // Append 'ts' extensions to Airbnb 'import/resolver' setting
     'import/resolver': {
       node: {
         extensions: ['.mjs', '.js', '.ts', '.json'],
       },
     },
-    // Append 'ts' extensions to Airbnb 'import/extensions' setting
     'import/extensions': ['.js', '.ts', '.mjs'],
   },
   rules: {

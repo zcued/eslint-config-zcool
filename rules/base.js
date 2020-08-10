@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     'class-methods-use-this': [0],
     'consistent-return': [1],
+    'lines-between-class-members': [0],
     'no-return-assign': [0],
     'no-nested-ternary': [1],
     'no-underscore-dangle': [1],
