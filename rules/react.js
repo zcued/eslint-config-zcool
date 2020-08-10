@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['react'],
-
+  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

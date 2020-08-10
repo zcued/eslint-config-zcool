@@ -42,3 +42,5 @@ add file `.eslintrc.js`
     extends: '@zcool/eslint-config/node-ts'
   }
 ```
+
+## TODO: migrate [babel-eslint](https://github.com/babel/babel-eslint) to [@babel/eslint-parser](https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser) when it's ready

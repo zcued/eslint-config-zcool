@@ -1,14 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: [
-    'airbnb-base',
-    'prettier',
-    'plugin:react-hooks/recommended',
-    './rules/base',
-    './rules/react',
-    './rules/import',
-  ],
-  plugins: ['prettier', 'react-hooks'],
+  plugins: ['prettier', 'react', 'react-hooks'],
+  extends: ['airbnb-base', 'prettier', './rules/base', './rules/react', './rules/import'],
   globals: {
     window: true,
     document: true,
@@ -17,7 +10,8 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
-    node: false,
+    node: true,
+    es6: true,
   },
   settings: {
     polyfills: ['fetch', 'promises'],

@@ -3,8 +3,6 @@ module.exports = {
   plugins: ['@typescript-eslint', 'react'],
   extends: [
     'airbnb-typescript/base',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
@@ -16,7 +14,7 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
-    node: false,
+    node: true,
   },
   parserOptions: {
     ecmaVersion: 2020, //  Allows for the parsing of modern ECMAScript features
