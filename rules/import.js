@@ -10,7 +10,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.json'],
+        extensions: ['.mjs', '.js', '.ts', '.json'],
       },
     },
     'import/extensions': ['.js', '.mjs', '.jsx'],
@@ -21,6 +21,6 @@ module.exports = {
   rules: {
     'import/extensions': [0],
     'import/prefer-default-export': [1],
-    'import/no-cycle': [2, { maxDepth: 1 }],
+    'import/no-cycle': [1, { maxDepth: 1 }],
   },
 }

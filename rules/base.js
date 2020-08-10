@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    camelcase: [1, { allow: ['^UNSAFE_'] }],
     'class-methods-use-this': [0],
     'consistent-return': [1],
     'lines-between-class-members': [0],
