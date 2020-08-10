@@ -8,6 +8,7 @@ module.exports = {
     'no-nested-ternary': [1],
     'no-underscore-dangle': [1],
     'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-unused-expressions': [2, { allowShortCircuit: true, allowTernary: true }],
     'no-param-reassign': [2, { props: true, ignorePropertyModificationsForRegex: ['^draft'] }],
     'prefer-destructuring': [
