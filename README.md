@@ -46,6 +46,8 @@
      }
    ```
 
+5. 如果开发环境为[vscode](https://github.com/Microsoft/vscode)，可以安装[vscode-eslint](https://github.com/Microsoft/vscode-eslint)插件以获取更好的按开发体验。
+
 ## TODO
 - separate this package into multiple packages managed by lerna
   - [ ] @zcool/eslint-config-browser
