@@ -1,22 +1,24 @@
 {
   "name": "@zcool/eslint-config",
-  "version": "1.0.0-alpha.12",
+  "version": "1.0.0-alpha.13",
   "description": "eslint config for zcool",
   "prettier": "@zcool/prettier-config",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@git.hellorf.work:fe/eslint-config-zcool.git"
+    "url": "git@github.com:zcued/eslint-config-zcool.git"
   },
   "keywords": [
     "eslint",
     "zcool"
   ],
+  "bugs": {
+    "url": "https://github.com/zcued/zeus/issues"
+  },
   "author": "cuining <cncc0824@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
-    "@typescript-eslint/parser": "^3.8.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-config-prettier": "^6.11.0",
@@ -36,5 +38,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",
     "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.6.0"
   }
 }
