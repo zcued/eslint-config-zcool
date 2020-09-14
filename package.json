@@ -13,10 +13,10 @@
     "zcool"
   ],
   "bugs": {
-    "url": "https://github.com/zcued/zeus/issues"
+    "url": "https://github.com/zcued/eslint-config-zcool/issues"
   },
   "author": "cuining <cncc0824@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "eslint-config-airbnb-base": "^14.2.0",
