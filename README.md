@@ -9,7 +9,7 @@
 
 2. 如果不同的`parser`
    1. 如果项目为`JavaScript`项目，安装`babel-eslint`
-   2. 如果项目为`TypeScript`项目，安装`@typescript-eslint/parser`
+   2. 如果项目为`TypeScript`项目，安装`@typescript-eslint/parser @typescript-eslint/eslint-plugin`
 
 3. 安装`@zcool/eslint-config`
    ```shell
