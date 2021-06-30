@@ -1,6 +1,6 @@
 {
   "name": "zgz-eslint-config-node-ts",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.2-alpha.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -8,6 +8,6 @@
   "license": "ISC",
   "gitHead": "1efd57204f115da9fa1aca019d1234b1a519d51e",
   "dependencies": {
-    "zgz-eslint-config-public": "1.0.1-alpha.0"
+    "zgz-eslint-config-public": "^1.0.2-alpha.0"
   }
 }
