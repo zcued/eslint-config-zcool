@@ -8,8 +8,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'zgz-eslint-config-public/ts',
-    'zgz-eslint-config-public/base',
+    '@zcool/eslint-config-public/ts',
+    '@zcool/eslint-config-public/base',
   ],
   env: {
     node: true,

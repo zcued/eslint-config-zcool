@@ -1,45 +1,13 @@
 {
-  "name": "zgz-eslint-config-node",
-  "version": "1.0.3-alpha.0",
-  "description": "eslint config for zcool",
-  "prettier": "@zcool/prettier-config",
+  "name": "@zcool/eslint-config-node",
+  "version": "1.0.2-alpha.0",
+  "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:zcued/eslint-config-zcool.git"
-  },
-  "keywords": [
-    "eslint",
-    "zcool"
-  ],
-  "bugs": {
-    "url": "https://github.com/zcued/eslint-config-zcool/issues"
-  },
-  "author": "cuining <cncc0824@gmail.com>",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gitHead": "1efd57204f115da9fa1aca019d1234b1a519d51e",
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-airbnb-typescript": "^9.0.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-es": "3.0.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prefer-object-spread": "^1.2.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.5",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "eslint-plugin-standard": "^4.0.1"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@zcool/prettier-config": "^1.0.0-rc.2",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
-    "prettier": "^2.0.5"
-  },
-  "peerDependencies": {
-    "eslint": "^7.6.0"
+    "@zcool/eslint-config-public": "^1.0.2-alpha.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "zgz-eslint-config-browser",
+  "name": "@zcool/eslint-config-browser",
   "version": "1.0.2-alpha.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,6 @@
   "license": "ISC",
   "gitHead": "1efd57204f115da9fa1aca019d1234b1a519d51e",
   "dependencies": {
-    "zgz-eslint-config-public": "^1.0.2-alpha.0"
+    "@zcool/eslint-config-public": "^1.0.2-alpha.0"
   }
 }
