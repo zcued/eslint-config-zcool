@@ -1,8 +1,9 @@
 {
-  "name": "@zgz/eslint-config-public",
+  "name": "zgz-eslint-config-public",
   "version": "1.0.1-alpha.0",
   "description": "",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "1efd57204f115da9fa1aca019d1234b1a519d51e"
 }
