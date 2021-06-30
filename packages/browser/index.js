@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
   plugins: ['prettier', 'react', 'react-hooks'],
-  extends: ['airbnb-base', 'prettier', '../../rules/base', '../../rules/react', '../../rules/import'],
+  extends: ['airbnb-base', 'prettier', '@zgz/eslint-config-public/base', '@zgz/eslint-config-public/react', '@zgz/eslint-config-public/import'],
   globals: {
     window: true,
     document: true,
