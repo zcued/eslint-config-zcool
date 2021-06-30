@@ -37,9 +37,19 @@
     "@zcool/prettier-config": "^1.0.0-rc.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.6.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.0.5"
   },
   "peerDependencies": {
     "eslint": "^7.6.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "build": "lerna run build --parallel",
+    "release": "lerna run test && yarn build && lerna publish"
   }
 }
