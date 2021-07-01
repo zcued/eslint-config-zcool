@@ -1,6 +1,6 @@
 {
   "name": "@zcool/eslint-config-browser-ts",
-  "version": "1.0.5-alpha.0",
+  "version": "1.0.6-alpha.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -11,6 +11,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@zcool/eslint-config-public": "^1.0.5-alpha.0"
+    "@zcool/eslint-config-public": "^1.0.6-alpha.0"
   }
 }
