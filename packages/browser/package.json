@@ -6,7 +6,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "1efd57204f115da9fa1aca019d1234b1a519d51e",
+  "gitHead": "dbf14d8745ebb54ff32b93a28d5bb09052d60888",
   "dependencies": {
     "@zcool/eslint-config-public": "^1.0.3-alpha.0"
   }
