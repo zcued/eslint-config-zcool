@@ -14,6 +14,6 @@
     "@zcool/eslint-config-public": "^1.0.6-alpha.0"
   },
   "scripts": {
-    "prepublish": "node console.log(123)"
+    "prepublish": "node ./index.js"
   }
 }
