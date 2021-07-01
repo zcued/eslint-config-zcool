@@ -5,7 +5,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "dbf14d8745ebb54ff32b93a28d5bb09052d60888",
+  "gitHead": "6778d2a5b91736ad93f25b684f3a35130c36c76a",
+  "private": true,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "eslint-config-airbnb-base": "^14.2.0",
