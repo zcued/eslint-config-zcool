@@ -12,5 +12,8 @@
   "gitHead": "6778d2a5b91736ad93f25b684f3a35130c36c76a",
   "dependencies": {
     "@zcool/eslint-config-public": "^1.0.6-alpha.0"
+  },
+  "scripts": {
+    "prepublish": "node console.log(123)"
   }
 }

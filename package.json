@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "prepublish": "node index.js"
   }
 }

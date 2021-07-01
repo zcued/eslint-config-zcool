@@ -1,3 +1,5 @@
+console.log(1123)
+
 module.exports = {
   extends: 'standard',
   rules: {
