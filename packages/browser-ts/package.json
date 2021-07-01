@@ -7,7 +7,9 @@
   "author": "",
   "license": "ISC",
   "gitHead": "6778d2a5b91736ad93f25b684f3a35130c36c76a",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@zcool/eslint-config-public": "^1.0.5-alpha.0"
   }
