@@ -23,7 +23,6 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "publish": "lerna publish",
-    "prepublish": "node index.js"
+    "publish": "sh copyFiles && lerna publish"
   }
 }

@@ -1,9 +1,7 @@
-console.log(12331)
-
 module.exports = {
   parser: 'babel-eslint',
   plugins: ['prettier', 'react', 'react-hooks'],
-  extends: ['airbnb-base', 'prettier', '@zcool/eslint-config-public/base', '@zcool/eslint-config-public/react', '@zcool/eslint-config-public/import'],
+  extends: ['airbnb-base', 'prettier', './public/base', './public/react', './public/import'],
   globals: {
     window: true,
     document: true,

@@ -3,3 +3,5 @@ package-error.json
 
 .DS_Store
 .idea/
+lerna-debug.log
+yarn-error.log
