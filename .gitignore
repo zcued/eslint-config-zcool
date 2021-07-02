@@ -1,7 +1,7 @@
 node_modules
 package-error.json
+lerna-debug.log
+yarn-error.log
 
 .DS_Store
 .idea/
-lerna-debug.log
-yarn-error.log
