@@ -3,5 +3,7 @@ package-error.json
 lerna-debug.log
 yarn-error.log
 
+packages/**/public
+
 .DS_Store
 .idea/
