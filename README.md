@@ -52,9 +52,9 @@
 5. 如果开发环境为[vscode](https://github.com/Microsoft/vscode)，可以安装[vscode-eslint](https://github.com/Microsoft/vscode-eslint)插件以获取更好的按开发体验。
 
 ## 使用lerna的多包管理方案
-发布
+发布时需要先执行脚本文件整合在npm scirpt里，执行以下语句
 ```shell
-  lerna publish
+  npm run publish
 ```
 其他相关 [lerna官网](https://lerna.js.org/)
 

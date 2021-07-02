@@ -23,6 +23,6 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "publish": "sh copyFiles && lerna publish"
+    "publish": "sh ./copyFiles.sh && lerna publish"
   }
 }
