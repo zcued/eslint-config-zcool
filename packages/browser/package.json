@@ -1,6 +1,6 @@
 {
   "name": "@zcool/eslint-config-browser",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "gitHead": "6778d2a5b91736ad93f25b684f3a35130c36c76a",
   "description": "eslint config for browser",
   "prettier": "@zcool/prettier-config",
