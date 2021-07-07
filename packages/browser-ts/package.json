@@ -1,6 +1,6 @@
 {
   "name": "@zcool/eslint-config-browser-ts",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "eslint config for browser-ts",
   "prettier": "@zcool/prettier-config",
   "main": "index.js",
