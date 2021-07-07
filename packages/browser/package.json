@@ -1,0 +1,31 @@
+{
+  "name": "@zcool/eslint-config-browser",
+  "version": "1.1.1",
+  "gitHead": "6778d2a5b91736ad93f25b684f3a35130c36c76a",
+  "description": "eslint config for browser",
+  "prettier": "@zcool/prettier-config",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-es": "3.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8"
+  },
+  "devDependencies": {
+    "@zcool/prettier-config": "^1.0.0-rc.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.6.0",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.6.0"
+  }
+}
