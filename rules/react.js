@@ -7,6 +7,8 @@ module.exports = {
     },
   },
   rules: {
+    'react/require-default-props': 'off',
+    'react/jsx-curly-newline': 'off',
     'react/prop-types': [0],
     'react/jsx-boolean-value': [0],
     'react/destructuring-assignment': [0],
