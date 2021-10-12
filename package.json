@@ -17,7 +17,6 @@
   },
   "author": "cuining <cncc0824@gmail.com>",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
