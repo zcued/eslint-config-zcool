@@ -2,7 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react'],
   extends: [
-    'airbnb-typescript/base',
+    'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
@@ -17,11 +17,10 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: 2020, //  Allows for the parsing of modern ECMAScript features
+    ecmaVersion: 2020,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  rules: {},
 }
