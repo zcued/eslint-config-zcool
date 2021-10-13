@@ -1,6 +1,6 @@
 {
   "name": "@zcool/eslint-config-node",
-  "version": "1.1.2-alpha.0",
+  "version": "1.1.2",
   "description": "eslint config for node",
   "prettier": "@zcool/prettier-config",
   "main": "index.js",
